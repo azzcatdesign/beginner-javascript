@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>The DOM</title>
+    <link rel="stylesheet" href="../../base.css" />
+  </head>
+
+  <body>
+    <img class="nice big" src="https://picsum.photos/450" />
+    <div class="items">
+      <div class="item">
+        <h2>
+          I'm the heading.
+          <span>I am a hidden span.</span>
+        </h2>
+        <p>Hi I'm an item.</p>
+				<img src="https://picsum.photos/200" />
+			</div>
+
+
+      <div class="item item2">
+        <p>Hi I'm an item.</p>
+        <img src="https://picsum.photos/200" />
+      </div>
+
+      <img src="https://picsum.photos/300" />
+      <p>Hi I'm an item.</p>
+      <p>Hi I'm an item.</p>
+    </div>
+
+    <style>
+      h2 span {
+        display: none;
+      }
+      img {
+        transition: all 0.2s;
+      }
+      .round {
+        border-radius: 50%;
+        transform: rotate(20deg);
+      }
+    </style>
+    <script src="./creating-with-strings.js"></script>
+  </body>
+</html>
